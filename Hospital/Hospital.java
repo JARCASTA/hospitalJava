@@ -118,7 +118,7 @@ public class Hospital{
 						System.out.println("¿Quiere regresar al menu anterior?");
 						repetir = new Scanner(System.in).nextLine();
 						}while (repetir.equals("si") || repetir.equals("Si"));
-					}else if((Integer.toString(ID).length() == 5)&&(ID == listadepacientes.get(i).getIdPaciente())){
+					}else if(ID == listadepacientes.get(i).getIdPaciente()){
 						System.out.println("|			Bienvenido 			|");
 						do{
 						System.out.println("|	¿Que desea realizar?	|");
